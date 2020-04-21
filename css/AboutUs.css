@@ -1,0 +1,52 @@
+body{
+	background-color: black;
+	margin: 0;
+	font-family: "Gill Sans", sans-serif;
+}
+#menu{
+	display: flex;
+	justify-content: space-between;
+	height: 75px;
+	color: white;
+}
+li, a,ul{
+	display: inline;
+	text-decoration: none;
+	padding: 20px;
+	color: white;
+	font-size: 12pt;
+
+}
+a:hover{
+color: #939599;
+}
+#logo{
+	height: width: : 100px;
+	height: 70px;
+}
+#baniere{
+	padding:7px;
+}
+span{
+	position: absolute;
+	top: 30px;
+	left: 90px;
+	font-size: 14pt;
+}
+.carousel-item,#carouselExampleIndicators{
+	height: 500px;
+	width: 1000px;
+	padding: 20px;
+
+}
+#carouselExampleIndicators{
+	margin:auto;
+}
+.carousel-control-prev,.carousel-control-next{
+	margin-top: 230px;
+	margin-right: 40px;
+	
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+	padding: 20px;
+}
