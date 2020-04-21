@@ -1,7 +1,20 @@
+@media all and(max-width: 600px){
+	body{
+		background-color: white;
+	}
+}
+@font-face{
+   font-family:myFont;
+   src:url("../fonts/natalisa/Natalisa Regular Demo.otf");
+}
+@font-face{
+   font-family:title;
+   src:url("../fonts/nuerthon/Nuerthon Regular.ttf");
+}
 body{
 	background-color: black;
 	margin: 0;
-	font-family: "Gill Sans", sans-serif;
+	font-family: title;
 }
 #menu{
 	display: flex;
@@ -50,3 +63,25 @@ span{
 .carousel-control-prev-icon,.carousel-control-next-icon{
 	padding: 20px;
 }
+#statistics{
+	color: white;
+	width: 50%;
+	margin: auto;
+	margin-top:40px;
+	padding-left: 242px; 
+	border-bottom: solid 1px white;
+}
+.row{
+	border:solid white;
+	color: white;
+	margin: auto;
+	margin-top: 40px;
+	padding: 10px;
+	border:solid 2px #939599 ;
+}
+.col{
+	border:solid 1px #939599;
+	padding: 20px
+}
+
+

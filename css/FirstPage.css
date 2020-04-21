@@ -1,57 +1,88 @@
-body{
-	background-image: url("../images/background.jpg");
-	margin: 0;
-	font-family: "Gill Sans", sans-serif;
+@font-face {
+  font-family: title;
+  src: url("../fonts/nuerthon/Nuerthon Regular.ttf");
 }
-#menu{
-	display: flex;
-	justify-content: space-between;
-	height: 75px;
-	color: white;
+@font-face {
+  font-family: texte;
+  src: url("../fonts/natalisa/Natalisa Regular Demo.otf");
 }
-li, a,ul{
-	display: inline;
-	text-decoration: none;
-	padding: 20px;
-	color: white;
-	font-size: 12pt;
+body {
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  margin: 0;
+  font-family: title;
+}
 
+#menu {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  color: white;
 }
-a:hover{
-color: #939599;
+
+li, a, ul {
+  display: inline;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  font-size: 12pt;
 }
-#logo{
-	height: width: : 100px;
-	height: 70px;
+
+a:hover {
+  color: #939599;
 }
-#baniere{
-	padding:7px;
+
+#logo {
+  width: 70px;
+  height: 75px;
 }
-span{
-	position: absolute;
-	top: 30px;
-	left: 90px;
-	font-size: 14pt;
+
+#baniere {
+  padding: 7px;
 }
-#welcome{
-	color: white;
-	width: 580px;
-	margin-left: 280px;
-	padding-top:100px;
+
+span {
+  position: absolute;
+  top: 30px;
+  left: 90px;
+  font-size: 14pt;
 }
-#title{
-	font-family: sans-serif;
-	font-size: 20pt;
+
+#welcome {
+  color: white;
+  width: 580px;
+  margin-left: 280px;
+  padding-top: 100px;
+  font-family: texte;
 }
-p{
-	font-size: 60pt;
+
+#title {
+  font-family: sans-serif;
+  font-size: 20pt;
 }
-footer{
-	color: white;
-	display: flex;
-	justify-content: space-between;
-	padding: 20px;
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
+
+p {
+  font-size: 60pt;
 }
+
+footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-family: texte;
+}
+@media all and(max-width: 800px){
+	#welcome{
+		color: red;
+		margin-left: 10px;
+	}
+}
+
+/*# sourceMappingURL=FirstPage.css.map */

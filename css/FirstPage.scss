@@ -1,0 +1,72 @@
+$color:white;
+@font-face{
+   font-family:title;
+   src:url("../fonts/nuerthon/Nuerthon Regular.ttf");
+}
+@font-face{
+   font-family:texte;
+   src:url("../fonts/natalisa/Natalisa Regular Demo.otf");
+}
+body{
+	background-image: url("../images/background.jpg");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	margin: 0;
+	font-family: title;
+}
+#menu{
+	display: flex;
+	justify-content: space-between;
+	height: 75px;
+	color: $color;
+}
+li, a,ul{
+	display: inline;
+	text-decoration: none;
+	padding: 20px;
+	color: $color;
+	font-size: 12pt;
+
+}
+a:hover{
+color: #939599;
+}
+#logo{
+	width:100px;
+	height: 70px;
+}
+#baniere{
+	padding:7px;
+}
+span{
+	position: absolute;
+	top: 30px;
+	left: 90px;
+	font-size: 14pt;
+}
+#welcome{
+	color:$color;
+	width: 580px;
+	margin-left: 280px;
+	padding-top:100px;
+	font-family: texte;
+}
+#title{
+	font-family: sans-serif;
+	font-size: 20pt;
+}
+p{
+	font-size: 60pt;
+}
+footer{
+	color:$color;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	font-family: texte;
+}
