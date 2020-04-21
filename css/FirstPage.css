@@ -1,0 +1,53 @@
+body{
+	background-image: url("../images/background.jpg");
+	margin: 0;
+	font-family: "Gill Sans", sans-serif;
+}
+#menu{
+	display: flex;
+	justify-content: space-between;
+	height: 75px;
+	color: white;
+}
+li, a,ul{
+	display: inline;
+	text-decoration: none;
+	padding: 20px;
+	color: white;
+	font-size: 12pt;
+
+}
+a:hover{
+text-decoration: underline;
+color: #939599;
+}
+#logo{
+	height: width: : 100px;
+	height: 70px;
+}
+#baniere{
+	padding:7px;
+}
+span{
+	position: absolute;
+	top: 30px;
+	left: 90px;
+	font-size: 14pt;
+}
+#welcome{
+	
+	color: white;
+	width: 580px;
+	margin-left: 280px;
+	padding-top:100px;
+}
+#title{
+	color: #939599;
+	border:solid 1px #939599;
+	font-size: 16pt;
+	width: 301px;
+	padding: 5px;
+}
+p{
+	font-size: 60pt;
+}
