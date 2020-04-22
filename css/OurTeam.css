@@ -1,4 +1,3 @@
-
 @font-face{
    font-family:myFont;
    src:url("../fonts/natalisa/Natalisa Regular Demo.otf");
@@ -42,43 +41,7 @@ span{
 	left: 90px;
 	font-size: 14pt;
 }
-.carousel-item,#carouselExampleIndicators{
-	height: 500px;
-	width: 1000px;
-	padding: 20px;
-
+#ourteam{
+	margin: 100px;
+	font-family: myFont;
 }
-#carouselExampleIndicators{
-	margin:auto;
-}
-.carousel-control-prev,.carousel-control-next{
-	margin-top: 230px;
-	margin-right: 40px;
-	
-}
-.carousel-control-prev-icon,.carousel-control-next-icon{
-	padding: 20px;
-}
-#statistics{
-	color: white;
-	width: 50%;
-	margin: auto;
-	margin-top:40px;
-	padding-left: 242px; 
-	border-bottom: solid 1px white;
-}
-.row{
-	border:solid white;
-	color: white;
-	margin: auto;
-	margin-top: 40px;
-	padding: 10px;
-	border:solid 2px #939599 ;
-}
-.col{
-	border:solid 1px #939599;
-	padding: 20px
-}
-
-
-
