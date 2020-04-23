@@ -43,5 +43,7 @@ span{
 }
 #ourteam{
 	margin: 100px;
-	font-family: myFont;
+	font-family: sans-serif;
+	opacity: 0.7;
+	text-align: center;
 }
